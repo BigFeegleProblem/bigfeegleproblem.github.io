@@ -1,3 +1,76 @@
+@font-face {
+  font-family: ringbearer;
+  src: url(fonts/RINGM___.TTF);
+}
+
+@font-face {
+  font-family: anir;
+  src: url(fonts/anirm___.ttf)
+}
+
+body {
+  max-width: 960px;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: anir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2 {
+  border-bottom: 1px solid #2f2d16;
+}
+
+#wrapper {
+  background: linear-gradient(#d8b599, #d8b599 10em, #ffffff 25em);
+}
+
+#content {
+  padding: 0.5em;
+}
+
+#header {
+  background: url(images/RotatedMap.jpg) center center no-repeat;
+  color: #2f2d16;
+}
+
 #main-title {
-  color: #005511;
+  color: #2f2d16;
+  font-family: ringbearer, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 3em;
+  padding-top: 0.5em;
+  text-align: center;
+  text-shadow: 0 0 4px #d9b696;
+}
+
+#navigation-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+#navigation-list li {
+  display: inline;
+  padding-left: 1em;
+}
+
+#navigation-list li a {
+  font-family: anir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #2f2d16;
+  text-shadow: 0 0 4px #d9b696;
+  transition: color 0.2s linear, text-shadow 0.5s linear;
+}
+
+#navigation-list li a:hover {
+  font-family: anir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #c57667;
+  text-shadow: 0 0 12px #411d05;
 }
